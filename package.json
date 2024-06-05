@@ -1,15 +1,22 @@
 {
     "name": "react-ts-starter-kit",
+    "description": "A comprehensive starter kit for building React applications, optimized for productivity and maintainability. Includes TypeScript, ESLint, Prettier, Husky, and lint-staged.",
     "private": true,
     "version": "0.1.0",
     "type": "module",
+    "author": {
+        "name": "Shubham Vaidya",
+        "email": "shubhamvaidya604@gmail.com",
+        "url": "https://github.com/vaidyashubham"
+    },
     "scripts": {
         "dev": "vite",
         "build": "tsc && vite build",
         "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
         "preview": "vite preview",
         "format": "npx prettier --write .",
-        "prepare": "husky install"
+        "prepare": "husky install",
+        "typecheck": "tsc --project tsconfig.json --noEmit"
     },
     "dependencies": {
         "eslint-config-prettier": "^9.1.0",
