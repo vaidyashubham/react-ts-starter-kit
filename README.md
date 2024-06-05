@@ -40,3 +40,7 @@ Serve with hot reload at http://localhost:5173.
 ### 6. Typecheck
 
 `yarn typecheck`
+
+
+### LICENSE
+This project is licensed under the MIT License.
