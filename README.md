@@ -1,4 +1,7 @@
 # React + TS Boilerplate build with Vite
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 A comprehensive starter kit for building React applications, optimized for productivity and maintainability. This starter kit includes:
 
@@ -53,7 +56,20 @@ Contributions are welcome! Please fork the repository and open a pull request to
 
 This starter kit is designed to help you quickly set up a new React project with a focus on best practices and developer experience. Happy coding!
 
-## Contributors
 
+### Contributors ✨
 
-<!-- @all-contributors please add @vaidyashubham for infrastructure, tests and code -->
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+=======
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://shubhamvaidya.netlify.app/"><img src="https://avatars.githubusercontent.com/u/42665352?v=4?s=100" width="100px;" alt="Shubham Vaidya"/><br /><sub><b>Shubham Vaidya</b></sub></a><br /><a href="#infra-vaidyashubham" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/vaidyashubham/react-ts-starter-kit/commits?author=vaidyashubham" title="Tests">⚠️</a> <a href="https://github.com/vaidyashubham/react-ts-starter-kit/commits?author=vaidyashubham" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
+=======
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+=======
+
