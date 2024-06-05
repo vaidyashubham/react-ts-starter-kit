@@ -52,3 +52,14 @@ Contributions are welcome! Please fork the repository and open a pull request to
 ---
 
 This starter kit is designed to help you quickly set up a new React project with a focus on best practices and developer experience. Happy coding!
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
