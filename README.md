@@ -55,11 +55,5 @@ This starter kit is designed to help you quickly set up a new React project with
 
 ## Contributors
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
 
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+<!-- @all-contributors please add @vaidyashubham for infrastructure, tests and code -->
