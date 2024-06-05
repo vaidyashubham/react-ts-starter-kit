@@ -57,7 +57,7 @@ Contributions are welcome! Please fork the repository and open a pull request to
 This starter kit is designed to help you quickly set up a new React project with a focus on best practices and developer experience. Happy coding!
 
 
-## Contributors ✨
+### Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 =======
@@ -72,3 +72,4 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 =======
+
