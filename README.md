@@ -1,6 +1,9 @@
 # React + TS Boilerplate build with Vite
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 A comprehensive starter kit for building React applications, optimized for productivity and maintainability. This starter kit includes:
@@ -56,12 +59,11 @@ Contributions are welcome! Please fork the repository and open a pull request to
 
 This starter kit is designed to help you quickly set up a new React project with a focus on best practices and developer experience. Happy coding!
 
-
 ### Contributors ✨
 
-
 #### Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-=======
+
+
 <table>
   <tbody>
     <tr>
@@ -71,5 +73,3 @@ This starter kit is designed to help you quickly set up a new React project with
 </table>
 
 #### This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
-=======
-
