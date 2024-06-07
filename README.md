@@ -59,7 +59,8 @@ This starter kit is designed to help you quickly set up a new React project with
 
 ### Contributors ✨
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+#### Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 =======
 <table>
   <tbody>
@@ -68,8 +69,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     </tr>
   </tbody>
 </table>
-=======
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+#### This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 =======
 
