@@ -47,17 +47,7 @@ Serve with hot reload at http://localhost:5173.
 -   `yarn format` : Run Prettier to format the code.
 -   `yarn typecheck` : Runt to typecheck
 
-### LICENSE
-
-This project is licensed under the MIT License.
-
-### Contributing
-
-Contributions are welcome! Please fork the repository and open a pull request to contribute.
-
 ---
-
-This starter kit is designed to help you quickly set up a new React project with a focus on best practices and developer experience. Happy coding!
 
 ### Contributors ✨
 
@@ -73,3 +63,16 @@ This starter kit is designed to help you quickly set up a new React project with
 </table>
 
 #### This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+---
+
+### LICENSE
+
+This project is licensed under the MIT License.
+
+### Contributing
+
+Contributions are welcome! Please fork the repository and open a pull request to contribute.
+
+This starter kit is designed to help you quickly set up a new React project with a focus on best practices and developer experience. Happy coding!
+
