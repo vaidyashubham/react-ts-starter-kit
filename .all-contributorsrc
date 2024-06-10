@@ -1,11 +1,12 @@
 {
-  "files": [
-    "README.md"
-  ],
   "imageSize": 100,
+  "repoType": "github",
   "commit": false,
-  "commitType": "docs",
-  "commitConvention": "eslint",
+  "contributorsPerLine": 6,
+  "linkToUsage": true,
+  "files": ["README.md"],
+  "repoHost": "https://github.com",
+  "commitConvention": "angular",
   "contributors": [
     {
       "login": "vaidyashubham",
@@ -25,14 +26,12 @@
       "profile": "https://github.com/Ayush2512-cpu",
       "contributions": [
         "infra",
-        "code",
-        "example",
-        "doc"
+        "code"
       ]
     }
   ],
-  "contributorsPerLine": 7,
-  "skipCi": false,
+  "contributorsPerLine": 6,
+  "skipCi": true,
   "repoType": "github",
   "repoHost": "https://github.com",
   "projectName": "react-ts-starter-kit",
