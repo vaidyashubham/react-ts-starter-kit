@@ -16,7 +16,7 @@ const ROUTES: RouteObject[] = [
     {
         path: APP_ROUTES.HOME,
         element: (
-            <ProtectedRoute routeType={RouteType.NotAuthenticated}>
+            <ProtectedRoute routeType={RouteType.Authenticated}>
                 <HomePage />
             </ProtectedRoute>
         ),
