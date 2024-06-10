@@ -52,7 +52,6 @@ Serve with hot reload at http://localhost:5173.
 #### Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/github/all-contributors/vaidyashubham/react-ts-starter-kit?color=ee8449&style=flat-square)](#contributors)
 
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
