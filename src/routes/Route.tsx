@@ -6,25 +6,20 @@ import { HomePage, LoginPage } from '../pages';
 
 const ROUTES: RouteObject[] = [
     {
-        // element: <ErrorBoundaryLayout />,
-        children: [
-            {
-                path: APP_ROUTES.ROOT,
-                element: (
-                    <ProtectedRoute routeType={RouteType.Authenticated}>
-                        <LoginPage />
-                    </ProtectedRoute>
-                ),
-            },
-            {
-                path: APP_ROUTES.HOME,
-                element: (
-                    <ProtectedRoute routeType={RouteType.NotAuthenticated}>
-                        <HomePage />
-                    </ProtectedRoute>
-                ),
-            },
-        ],
+        path: APP_ROUTES.ROOT,
+        element: (
+            <ProtectedRoute routeType={RouteType.Authenticated}>
+                <LoginPage />
+            </ProtectedRoute>
+        ),
+    },
+    {
+        path: APP_ROUTES.HOME,
+        element: (
+            <ProtectedRoute routeType={RouteType.NotAuthenticated}>
+                <HomePage />
+            </ProtectedRoute>
+        ),
     },
 ];
 export const routes = createBrowserRouter(ROUTES);
