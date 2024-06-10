@@ -5,7 +5,7 @@
   "imageSize": 100,
   "commit": false,
   "commitType": "docs",
-  "commitConvention": "angular",
+  "commitConvention": "react",
   "contributors": [
     {
       "login": "vaidyashubham",
@@ -32,7 +32,7 @@
     }
   ],
   "contributorsPerLine": 7,
-  "skipCi": true,
+  "skipCi": false,
   "repoType": "github",
   "repoHost": "https://github.com",
   "projectName": "react-ts-starter-kit",
