@@ -80,3 +80,7 @@ This project is licensed under the MIT License.
 Contributions are welcome! Please fork the repository and open a pull request to contribute.
 
 This starter kit is designed to help you quickly set up a new React project with a focus on best practices and developer experience. Happy coding!
+
+
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
