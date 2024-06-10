@@ -26,7 +26,8 @@
       "contributions": [
         "infra",
         "code",
-        "example"
+        "example",
+        "doc"
       ]
     }
   ],
