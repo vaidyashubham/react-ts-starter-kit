@@ -1,4 +1,6 @@
 export const APP_ROUTES = {
     ROOT: '/',
-    HOME: '/home',
+    WILDCARD: '*',
+    HOME: 'home',
+    LOGIN: 'login',
 };
