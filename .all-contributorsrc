@@ -4,7 +4,9 @@
   "commit": false,
   "contributorsPerLine": 6,
   "linkToUsage": true,
-  "files": ["README.md"],
+  "files": [
+    "README.md"
+  ],
   "repoHost": "https://github.com",
   "commitConvention": "angular",
   "contributors": [
@@ -28,9 +30,19 @@
         "infra",
         "code"
       ]
+    },
+    {
+      "login": "shubhamv-dy",
+      "name": "Shubham Vaidya",
+      "avatar_url": "https://avatars.githubusercontent.com/u/135799598?v=4",
+      "profile": "https://github.com/shubhamv-dy",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "skipCi": true,
   "projectName": "react-ts-starter-kit",
-  "projectOwner": "vaidyashubham"
+  "projectOwner": "vaidyashubham",
+  "commitType": "docs"
 }
