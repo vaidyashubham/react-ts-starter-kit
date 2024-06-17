@@ -1,9 +1,11 @@
 import useCrud from '@/utils/helpers/apiCrud';
 import { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const HomePage = () => {
     const { get, post, put, del, loading, error } = useCrud();
     const [data, setData] = useState(null);
+    const { t } = useTranslation();
 
     useEffect(() => {
         const fetchData = async () => {
@@ -60,7 +62,7 @@ const HomePage = () => {
 
     return (
         <div>
-            <button onClick={handleCreate}>Create</button>
+            <button onClick={handleCreate}>{t('BUTTONS.CREATE')}</button>
             <button onClick={handleUpdate}>Update</button>
             <button onClick={handleDelete}>Delete</button>
             {loading ? 'Loading...' : data ? <pre>{JSON.stringify(data, null, 2)}</pre> : 'No data'}
