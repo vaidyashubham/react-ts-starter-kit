@@ -23,7 +23,8 @@
             "@/*": ["./src/*"]
         }
     },
-    "include": ["src"],
+    "types": ["node", "jest", "@testing-library/jest-dom"],
+    "include": ["src", "translation.js"],
     "exclude": ["node_modules"],
     "references": [{ "path": "./tsconfig.node.json" }]
 }
