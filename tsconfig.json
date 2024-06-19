@@ -24,7 +24,7 @@
         }
     },
     "types": ["node", "jest", "@testing-library/jest-dom"],
-    "include": ["src"],
+    "include": ["src", "translation.js"],
     "exclude": ["node_modules"],
     "references": [{ "path": "./tsconfig.node.json" }]
 }

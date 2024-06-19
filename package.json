@@ -19,15 +19,20 @@
         "test:preview": "npx vite preview --outDir ./html",
         "format": "npx prettier --write .",
         "prepare": "husky install",
-        "typecheck": "tsc --project tsconfig.json --noEmit"
+        "typecheck": "tsc --project tsconfig.json --noEmit",
+        "translate": "node translate.js"
     },
     "dependencies": {
         "axios": "^1.7.2",
         "eslint-config-prettier": "^9.1.0",
         "eslint-plugin-prettier": "^5.1.3",
         "eslint-plugin-react": "^7.34.2",
+        "i18next": "^23.11.5",
+        "i18next-browser-languagedetector": "^8.0.0",
+        "i18next-http-backend": "^2.5.2",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
+        "react-i18next": "^14.1.2",
         "react-router-dom": "^6.23.1"
     },
     "devDependencies": {
