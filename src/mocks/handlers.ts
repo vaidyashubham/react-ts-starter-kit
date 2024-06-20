@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { http, HttpResponse } from 'msw';
 
 export const handlers = [
@@ -14,8 +15,8 @@ export const handlers = [
             { status: 200 },
         );
     }),
-    http.post('/posts', async (req) => {
-        const { title, body, userId } = req?.body;
+    http.post('/posts', async (req: any) => {
+        const { title, body, userId } = req.body;
         return HttpResponse.json(
             {
                 title,
