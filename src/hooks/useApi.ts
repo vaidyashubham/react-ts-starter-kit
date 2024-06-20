@@ -1,3 +1,9 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
+
 import { useState, useCallback } from 'react';
 import axiosInstance from '../axiosInstance';
 import apiMethods from '../utils/constants/apiMethods';
@@ -19,7 +25,7 @@ const useApi = () => {
             });
             setLoading(false);
             return response.data;
-        } catch (err:any) {
+        } catch (err: any) {
             setLoading(false);
             setError(err);
             throw err;

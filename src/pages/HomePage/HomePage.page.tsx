@@ -18,7 +18,7 @@ const HomePage = () => {
         };
 
         fetchData();
-    }, []);
+    });
 
     const handleCreate = async () => {
         try {

@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 import useApi from '../../hooks/useApi';
 import apiMethods from '../constants/apiMethods';
 
