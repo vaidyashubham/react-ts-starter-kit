@@ -10,7 +10,7 @@ import apiMethods from '../utils/constants/apiMethods';
 
 const useApi = () => {
     const [loading, setLoading] = useState(false);
-    const [error, setError] = useState(null);
+    const [error, setError] = useState<{ message: string }>();
 
     const callApi = useCallback(async (method: unknown, url: string, data?: any, params = {}) => {
         setLoading(true);

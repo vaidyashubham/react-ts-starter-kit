@@ -2,9 +2,16 @@ import useCrud from '@/utils/helpers/apiCrud';
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
+type Item = {
+    id: number;
+    body: string;
+    title: string;
+    userId: number;
+};
+
 const HomePage = () => {
     const { get, post, put, del, loading, error } = useCrud();
-    const [data, setData] = useState([]);
+    const [data, setData] = useState<Item[]>([]);
     const { t } = useTranslation();
 
     useEffect(() => {
@@ -69,7 +76,7 @@ const HomePage = () => {
             {loading
                 ? 'Loading...'
                 : data
-                  ? data?.map((item: { id: number; userId: number; title: string; body: string }) => {
+                  ? data?.map((item: Item) => {
                         return (
                             <div key={item.id}>
                                 <p>
