@@ -13,10 +13,10 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: '16' # Adjust the node version as needed
+        node-version: '18' # Adjust the node version as needed
 
     - name: Install dependencies
-      run: npm install
+      run: yarn install
 
     - name: Run unit tests
-      run: npm test
+      run: yarn test
