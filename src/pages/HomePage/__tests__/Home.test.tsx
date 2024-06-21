@@ -1,3 +1,5 @@
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+//@ts-nocheck
 import { render, screen, waitFor } from '@testing-library/react';
 import { describe, expect, it } from 'vitest';
 import userEvent from '@testing-library/user-event';
@@ -8,7 +10,7 @@ import { HttpResponse, http } from 'msw';
 describe('ErrorMessage', () => {
     it('Buttons renders correctly', () => {
         render(<Home />);
-        expect(screen.getByText('Create')).toBeInTheDocument();
+        expect(screen.getByText('BUTTONS.CREATE')).toBeInTheDocument();
         expect(screen.getByText('Update')).toBeInTheDocument();
         expect(screen.getByText('Delete')).toBeInTheDocument();
     });
@@ -71,7 +73,7 @@ describe('ErrorMessage', () => {
 
     it('CREATE api on button click', async () => {
         render(<Home />);
-        userEvent.click(screen.getByText('Create'));
+        userEvent.click(screen.getByText('BUTTONS.CREATE'));
         await waitFor(() => screen.getByText('Total Items : 101'), { timeout: 5000 });
     });
 

@@ -1,7 +1,9 @@
 # React + TS Boilerplate build with Vite
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 A comprehensive starter kit for building React applications, optimized for productivity and maintainability. This starter kit includes:
@@ -91,6 +93,14 @@ This project is licensed under the MIT License.
 Contributions are welcome! Please fork the repository and open a pull request to contribute.
 
 This starter kit is designed to help you quickly set up a new React project with a focus on best practices and developer experience. Happy coding!
+Following are the topics/tools/practices, if you want to contribute:
+
+-   [ ] Docker
+-   [ ] Styling
+-   [ ] State Management
+-   [ ] Documentation
+
+... And feel free to add more to the list!
 
 <!-- readme: contributors -start -->
 <!-- readme: contributors -end -->
