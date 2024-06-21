@@ -3,20 +3,20 @@ name: Lint
 on: [pull_request]
 
 jobs:
-  eslint:
-    runs-on: ubuntu-latest
+    eslint:
+        runs-on: ubuntu-latest
 
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
-      
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '18' # Adjust the node version as needed
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v3
 
-    - name: Install dependencies
-      run: npm install
+            - name: Set up Node.js
+              uses: actions/setup-node@v3
+              with:
+                  node-version: '18' # Adjust the node version as needed
 
-    - name: Run ESLint
-      run: npm run lint
+            - name: Install dependencies
+              run: npm install
+
+            - name: Run ESLint
+              run: npm run lint

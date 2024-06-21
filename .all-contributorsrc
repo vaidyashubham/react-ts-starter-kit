@@ -1,49 +1,37 @@
 {
-  "imageSize": 100,
-  "repoType": "github",
-  "commit": false,
-  "contributorsPerLine": 6,
-  "linkToUsage": true,
-  "files": [
-    "README.md"
-  ],
-  "repoHost": "https://github.com",
-  "commitConvention": "angular",
-  "contributors": [
-    {
-      "login": "vaidyashubham",
-      "name": "Shubham Vaidya",
-      "avatar_url": "https://avatars.githubusercontent.com/u/42665352?v=4",
-      "profile": "https://shubhamvaidya.netlify.app/",
-      "contributions": [
-        "infra",
-        "test",
-        "code"
-      ]
-    },
-    {
-      "login": "Ayush2512-cpu",
-      "name": "Ayush Shah",
-      "avatar_url": "https://avatars.githubusercontent.com/u/71246053?v=4",
-      "profile": "https://github.com/Ayush2512-cpu",
-      "contributions": [
-        "infra",
-        "code"
-      ]
-    },
-    {
-      "login": "shubhamv-dy",
-      "name": "Shubham Vaidya",
-      "avatar_url": "https://avatars.githubusercontent.com/u/135799598?v=4",
-      "profile": "https://github.com/shubhamv-dy",
-      "contributions": [
-        "code",
-        "test"
-      ]
-    }
-  ],
-  "skipCi": true,
-  "projectName": "react-ts-starter-kit",
-  "projectOwner": "vaidyashubham",
-  "commitType": "docs"
+    "imageSize": 100,
+    "repoType": "github",
+    "commit": false,
+    "contributorsPerLine": 6,
+    "linkToUsage": true,
+    "files": ["README.md"],
+    "repoHost": "https://github.com",
+    "commitConvention": "angular",
+    "contributors": [
+        {
+            "login": "vaidyashubham",
+            "name": "Shubham Vaidya",
+            "avatar_url": "https://avatars.githubusercontent.com/u/42665352?v=4",
+            "profile": "https://shubhamvaidya.netlify.app/",
+            "contributions": ["infra", "test", "code"]
+        },
+        {
+            "login": "Ayush2512-cpu",
+            "name": "Ayush Shah",
+            "avatar_url": "https://avatars.githubusercontent.com/u/71246053?v=4",
+            "profile": "https://github.com/Ayush2512-cpu",
+            "contributions": ["infra", "code"]
+        },
+        {
+            "login": "shubhamv-dy",
+            "name": "Shubham Vaidya",
+            "avatar_url": "https://avatars.githubusercontent.com/u/135799598?v=4",
+            "profile": "https://github.com/shubhamv-dy",
+            "contributions": ["code", "test"]
+        }
+    ],
+    "skipCi": true,
+    "projectName": "react-ts-starter-kit",
+    "projectOwner": "vaidyashubham",
+    "commitType": "docs"
 }

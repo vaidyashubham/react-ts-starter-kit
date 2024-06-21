@@ -3,20 +3,20 @@ name: Unit Tests
 on: pull_request
 
 jobs:
-  test:
-    runs-on: ubuntu-latest
+    test:
+        runs-on: ubuntu-latest
 
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
-      
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '18' # Adjust the node version as needed
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v3
 
-    - name: Install dependencies
-      run: yarn install
+            - name: Set up Node.js
+              uses: actions/setup-node@v3
+              with:
+                  node-version: '18' # Adjust the node version as needed
 
-    - name: Run unit tests
-      run: yarn test
+            - name: Install dependencies
+              run: yarn install
+
+            - name: Run unit tests
+              run: yarn test
